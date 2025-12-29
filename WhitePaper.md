@@ -7,7 +7,7 @@
 ---
 
 ## 1. Introduction & Philosophy
-**KRR v2.0** (Korean Romanization for Robots) is a next-generation romanization system designed specifically for **AI, Database Indexing, and Computational Linguistics**.
+**KRR v2.0** (Korean Reversible Romanization) is a next-generation romanization system designed specifically for **AI, Database Indexing, and Computational Linguistics**.
 
 Unlike the current national standard (Revised Romanization, RR), which prioritizes phonetic approximation for human speech, KRR v2.0 focuses on **Data Integrity, Reversibility, and Morphological Preservation**.
 

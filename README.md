@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/1124444957.svg)](https://doi.org/10.5281/zenodo.18080288)
-# KRR v2.0 (Korean Romanization for Robots) 🇰🇷🤖
+# KRR v2.0 (Korean Reversible Romanization) 🇰🇷
 
 > **"No Ambiguity. 100% Reversible. AI-Ready."**
 

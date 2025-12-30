@@ -15,7 +15,7 @@ tests = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["krr_v2"]
+packages = ["krr"]
 
 [build-system]
 requires = ["hatchling"]

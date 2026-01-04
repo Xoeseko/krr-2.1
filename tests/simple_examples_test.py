@@ -24,10 +24,10 @@ def test_encode_ignores_non_korean_characters():
     """
     test_input = "안녕하세요! 👋"
     
-    # Expected output based on v2.1.1 rules:
+    # Expected output based on v2.2.0 rules:
     # 안(an) + 녕(nyung~) + 하(ha) + 세(sè) + 요(yo)
     # Auto-inserted separator: Backslash (\)
-    expected_output = r"an\nyung~\ha\sè\yo! 👋"
+    expected_output = r"an\nyung~\ha\sè\yo\!\ \👋"
 
     romanized = krr.encode(test_input)
 

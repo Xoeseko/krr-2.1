@@ -1,6 +1,6 @@
 [project]
 name = "krr"
-version = "2.1.1"
+version = "2.2.0"
 description = "KRR v2.0 is a strictly logical romanization system for Hangul."
 readme = "README.md"
 authors = [
@@ -12,6 +12,7 @@ dependencies = []
 [dependency-groups]
 tests = [
     "pytest>=9.0.2",
+    "pytest-doctestplus>=1.6.0",
 ]
 
 [tool.hatch.build.targets.wheel]

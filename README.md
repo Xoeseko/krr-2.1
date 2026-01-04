@@ -16,14 +16,15 @@ It creates a **bijective (1-to-1) mapping** between Hangul characters and ASCII 
 4. **Open Source:** Apache 2.0 License. Free for enterprise use.
 
 ## How to use
-```python
-from krr import KRR
+```pycon
+>>> import krr
 
-print(KRR.encode("한글")) 
-# Output: han\ge~l
+>>> krr.encode("한글")
+'han\\ge~l'
 
-print(KRR.decode("han\ge~l"))
-# Output: 한글
+>>> krr.decode("han\ge~l")
+'한글'
+
 ```
 
 ## How to install
@@ -54,8 +55,12 @@ pip install -e .
 
 ## Running tests
 
-The tests can be run with pytest installed by calling
+The tests can be run with pytest (and pytest-doctestplus for README documentation) installed by calling
 
 ```
+# Unit tests
 pytest
+
+# Doctests to include README
+pytest --doctest-plus --doctest-glob '*.md'
 ```
